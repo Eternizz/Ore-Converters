@@ -10,9 +10,9 @@
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-                "liquids": {
-                          {"liquid": "oil", "amount": 5}
-                 }
+                "liquid": [
+                        {"liquid": "oil", "amount": 5}
+		    ]
 		"items": {
 			"items": [
 				{ "item": "thorium", "amount": 5 }
