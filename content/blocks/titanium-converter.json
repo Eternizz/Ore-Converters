@@ -10,13 +10,13 @@
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-                "liquids": [
-                          {"liquid": "oil", "amount": 15}
-			]
 		"items": {
 			"items": [
 				{ "item": "titanium", "amount": 15 }
 			]
+		}
+		"liquid": {
+			{"liquid": "oil", "amount": 15}
 		}
 	},
 	"requirements": [
