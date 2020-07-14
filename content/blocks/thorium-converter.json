@@ -6,7 +6,6 @@
 	"size": 2,
 	"hasPower": false,
 	"hasItems": false,
-        "hasLiquid": true,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
@@ -15,9 +14,6 @@
 				{ "item": "thorium", "amount": 5 }
 			]
 		}
-                "liquid": {
-                       {"liquid": "oil", "amount": 5}
-		    }
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 50 }

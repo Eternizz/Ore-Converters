@@ -6,7 +6,6 @@
 	"size": 2,
 	"hasPower": false,
 	"hasItems": false,
-        "hasLiquid": true,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
@@ -14,9 +13,6 @@
 			"items": [
 				{ "item": "titanium", "amount": 15 }
 			]
-		}
-		"liquid": {
-			{"liquid": "oil", "amount": 15}
 		}
 	},
 	"requirements": [
