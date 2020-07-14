@@ -1,0 +1,25 @@
+{
+	"type": "GenericSmelter",
+	"name": "Copper-Converter",
+	"description": "-",
+	"outputItem": {"item": "lead", "amount": 1},
+	"size": 2,
+	"hasPower": false,
+	"hasItems": false,
+	"craftTime": 2,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
