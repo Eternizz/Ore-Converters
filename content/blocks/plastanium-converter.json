@@ -1,17 +1,18 @@
 {
 	"type": "GenericSmelter",
-	"name": "Copper-Converter",
+	"name": "Plastanium-Converter",
 	"description": "-",
-	"outputItem": {"item": "lead", "amount": 1},
+	"outputItem": {"item": "plastanium", "amount": 1},
 	"size": 2,
-	"hasPower": false,
+	"hasPower": true,
 	"hasItems": false,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
+                "power": 360,
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 1 }
+				{ "item": "surge-alloy", "amount": 5 }
 			]
 		}
 	},

@@ -2,16 +2,17 @@
 	"type": "GenericSmelter",
 	"name": "Copper-Converter",
 	"description": "-",
-	"outputItem": {"item": "lead", "amount": 1},
+	"outputItem": {"item": "surge-alloy", "amount": 1},
 	"size": 2,
-	"hasPower": false,
+	"hasPower": true,
 	"hasItems": false,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
+                "power": 0.7,
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 1 }
+				{ "item": "plastanium", "amount": 5 }
 			]
 		}
 	},

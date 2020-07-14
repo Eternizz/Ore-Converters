@@ -1,8 +1,8 @@
 {
 	"type": "GenericSmelter",
-	"name": "Copper-Converter",
+	"name": "Lead-Converter",
 	"description": "-",
-	"outputItem": {"item": "lead", "amount": 1},
+	"outputItem": {"item": "copper", "amount": 1},
 	"size": 2,
 	"hasPower": false,
 	"hasItems": false,
@@ -11,7 +11,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 1 }
+				{ "item": "lead", "amount": 1 }
 			]
 		}
 	},

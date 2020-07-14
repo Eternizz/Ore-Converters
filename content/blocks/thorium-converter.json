@@ -1,17 +1,21 @@
 {
 	"type": "GenericSmelter",
-	"name": "Copper-Converter",
+	"name": "Thorium-Converter",
 	"description": "-",
-	"outputItem": {"item": "lead", "amount": 1},
+	"outputItem": {"item": "titanium", "amount": 2},
 	"size": 2,
 	"hasPower": false,
 	"hasItems": false,
+        "hasLiquid": true,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
+                "liquids": {
+                          {"liquid": "oil", "amount": 5}
+                 }
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 1 }
+				{ "item": "thorium", "amount": 5 }
 			]
 		}
 	},
