@@ -8,7 +8,7 @@
 	"hasItems": true,
         "itemCapacity": 15,
         "liquidCapacity": 15,
-	"craftTime": 50,
+	"craftTime": 5,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
                 "power": 6,
@@ -23,7 +23,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 1000 }
+		{ "item": "Titanium", "amount": 500 }
 	],
 	"category": "crafting",
 	"research": "router",

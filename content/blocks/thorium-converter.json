@@ -6,7 +6,7 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": false,
-	"craftTime": 50,
+	"craftTime": 5,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
                 "power": 6,
@@ -21,7 +21,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 1000 }
+		{ "item": "thorium", "amount": 500 }
 	],
 	"category": "crafting",
 	"research": "router",
