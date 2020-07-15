@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Copper-Converter",
+	"name": "Copper Converter",
 	"description": "-",
 	"outputItem": {"item": "lead", "amount": 1},
 	"size": 2,

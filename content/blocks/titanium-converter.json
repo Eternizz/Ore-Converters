@@ -1,14 +1,20 @@
 {
 	"type": "GenericSmelter",
-	"name": "Titanium-Converter",
+	"name": "Titanium Converter",
 	"description": "-",
 	"outputItem": {"item": "thorium", "amount": 1},
 	"size": 2,
-	"hasPower": false,
-	"hasItems": false,
+	"hasPower": true,
+	"hasItems": true,
+        "itemCapacity": 15,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
+                "power": 60,
+                "liquid": {
+			"liquid": "oil",
+			"amount": 0.3
+		}
 		"items": {
 			"items": [
 				{ "item": "titanium", "amount": 15 }
@@ -16,7 +22,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 50 }
+		{ "item": "thorium", "amount": 1000 }
 	],
 	"category": "crafting",
 	"research": "router",

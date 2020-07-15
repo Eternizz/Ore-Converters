@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Lead-Converter",
+	"name": "Lead Converter",
 	"description": "-",
 	"outputItem": {"item": "copper", "amount": 1},
 	"size": 2,
@@ -16,7 +16,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 50 }
+		{ "item": "lead", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "router",
