@@ -1,29 +1,23 @@
 {
 	"type": "GenericSmelter",
-	"name": "Titanium Converter",
+	"name": "Surge Alloy Converter",
 	"description": "-",
-	"outputItem": {"item": "thorium", "amount": 1},
+	"outputItem": {"item": "plastanium", "amount": 1},
 	"size": 2,
 	"hasPower": true,
-	"hasItems": true,
-        "itemCapacity": 15,
-        "liquidCapacity": 15,
+	"hasItems": false,
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
                 "power": 6,
-                "liquid": {
-			"liquid": "oil",
-			"amount": 0.3
-		}
 		"items": {
 			"items": [
-				{ "item": "titanium", "amount": 15 }
+				{ "item": "surge-alloy", "amount": 5 }
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 1000 }
+		{ "item": "surge-alloy", "amount": 100 }
 	],
 	"category": "crafting",
 	"research": "router",
