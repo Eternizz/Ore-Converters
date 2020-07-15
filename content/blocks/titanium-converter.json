@@ -23,7 +23,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "Titanium", "amount": 500 }
+		{ "item": "titanium", "amount": 500 }
 	],
 	"category": "crafting",
 	"research": "router",
