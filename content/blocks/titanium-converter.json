@@ -14,7 +14,7 @@
                 "power": 6,
                 "liquid": {
 			"liquid": "oil",
-			"amount": 0.3
+			"amount": 5
 		}
 		"items": {
 			"items": [
