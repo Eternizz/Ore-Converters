@@ -16,7 +16,7 @@
 		}
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 5 }
+				{ "item": "thorium", "amount": 1 }
 			]
 		}
 	},

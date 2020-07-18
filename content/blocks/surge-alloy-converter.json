@@ -9,7 +9,7 @@
 	"craftTime": 50,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-                "power": 6,
+                "power": 18.5166667,
 		"items": {
 			"items": [
 				{ "item": "surge-alloy", "amount": 5 }
